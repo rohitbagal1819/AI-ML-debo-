@@ -1,3 +1,14 @@
+''' Day 2: Python Fundamentals
+   Name: Rohit Sanjay Bagal
+   Day: Sunday
+   Date: 09/08/2026
+   Cohort: AI-ML 2026
+   Contact no: 9403780042
+   Email: rohitbagal1819@gmail.com
+   Description: Topics that are covered on day 1
+   Topics: 1) Arithematic operators ,2) Concatenation of the string ,3) Replication ,4) Changing of the values, 5) naming convention, 6) length function , 
+   7) Type conversion, 8) absolute , 9) comparision operators, 10) boolean , 11) Logical operators'''
+
 # Arithmetic operators
 
 a = int(input("enter the number: "))
