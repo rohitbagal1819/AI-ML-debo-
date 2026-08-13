@@ -93,20 +93,20 @@ Balance: 4500
 ## Program flow
 
 
-**Initial Balance → ₹5000**
+Initial Balance → ₹5000
 
             ↓  
 
-**Deposit ₹1500**
+Deposit ₹1500
 
             ↓
 
-**Balance → ₹6500**
+Balance → ₹6500
 
             ↓
 
-**Withdraw ₹2000**
+Withdraw ₹2000
 
             ↓
 
-**Final Balance → ₹4500**
+Final Balance → ₹4500
