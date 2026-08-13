@@ -90,23 +90,24 @@ acc.show_balance()
 Balance: 4500
 ```
 
-## Program flow
+## Program Flow
 
-
+<p>
 Initial Balance → ₹5000
-
-            ↓  
-
+<br>
+↓
+<br>
 Deposit ₹1500
-
-            ↓
-
+<br>
+↓
+<br>
 Balance → ₹6500
-
-            ↓
-
+<br>
+↓
+<br>
 Withdraw ₹2000
-
-            ↓
-
+<br>
+↓
+<br>
 Final Balance → ₹4500
+</p>
