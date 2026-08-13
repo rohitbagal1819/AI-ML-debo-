@@ -90,32 +90,23 @@ acc.show_balance()
 Balance: 4500
 ```
 
-# Program flow
+## Program flow
 
-```
-BankAccount Program
-│
-├── 1. Define class BankAccount
-│       └── (blueprint only, nothing executes yet)
-│
-├── 2. Create object: acc = BankAccount("Gaurav", 5000)
-│       └── __init__() runs
-│              ├── self.owner = "Gaurav"
-│              └── self.balance = 5000
-│
-├── 3. acc.deposit(1500)
-│       └── self.balance += amount
-│              └── 5000 + 1500 = 6500
-│
-├── 4. acc.withdraw(2000)
-│       └── if amount <= self.balance
-│              ├── True (2000 <= 6500)
-│              │      └── self.balance -= amount
-│              │             └── 6500 - 2000 = 4500
-│              └── False
-│                     └── print("Insufficient balance")
-│
-└── 5. acc.show_balance()
-        └── print(f"Balance: {self.balance}")
-               └── Output: "Balance: 4500"
-```
+
+**Initial Balance → ₹5000**
+
+            ↓  
+
+**Deposit ₹1500**
+
+            ↓
+
+**Balance → ₹6500**
+
+            ↓
+
+**Withdraw ₹2000**
+
+            ↓
+
+**Final Balance → ₹4500**
