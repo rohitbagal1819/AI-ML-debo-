@@ -121,3 +121,8 @@ while True:
     sys.exit()
   print("You typed" + response)  
 
+import os
+print(os.getcwd())
+
+import os
+print(os.listdir())
