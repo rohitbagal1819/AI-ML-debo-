@@ -31,33 +31,25 @@ python test_server.py
 4. **Chat:** type `Make a blog on Inference Engineering and publish it` - Claude writes the post and calls `publish_blog_post`.
 
 That's the whole flow. The screenshots below show step 4 from start to finish.
+> **📄 Result:** The screenshots below show the whole flow. You can also see the final result in the `Result_.pdf` file attached above (it contains the full demo output, including the published blog post).
+
 
 ## Demo screenshots (in order)
 
 ### 1. Ask Claude to write the blog
 I ask Claude, in Claude Desktop, to make a blog on "Inference Engineering".
 
-![Step 1 - asking Claude to write a blog post](screenshots/01-ask-claude.png)
-
 ### 2. Claude calls the `publish_blog_post` tool
 After I confirm with "Access Granted", Claude calls the MCP **tool**. The `B` badge and `Publish_blog_post` line show the Blogger MCP server doing the work (here it has been running for 7 seconds).
-
-![Step 2 - Claude calling the publish_blog_post tool](screenshots/02-tool-called.png)
 
 ### 3. The tool returns the published post URL
 The tool finishes and returns the live URL and labels. Claude reports the post title, the link and the labels (AI, Inference, LLM, Machine Learning, Technology).
 
-![Step 3 - Claude reports the published post URL](screenshots/03-post-published-url.png)
-
 ### 4. The post is live on Blogger
 Opening the returned URL shows the article on my blog, with the Markdown converted to HTML (headings, bold text, bullet lists).
 
-![Step 4 - the published post on the live blog](screenshots/04-live-blog-post.png)
-
 ### 5. Verified in the Blogger dashboard
 The Blogger dashboard lists the new post as **Published** with its labels, next to my earlier posts. The list also shows one **Draft**, which is what the tool's `is_draft` option creates.
-
-![Step 5 - the post in the Blogger dashboard](screenshots/05-blogger-dashboard.png)
 
 ## Why each primitive was chosen
 
